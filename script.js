@@ -1,0 +1,1 @@
+element.scrollLeft = element.scrollWidth
