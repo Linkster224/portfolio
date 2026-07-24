@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to right, #22006E, #763680);
+}
+
+.cards .profile .pfp {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.cards .profile .username {
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #9C9C9C;
+}
+
+.cards .profile {
+  text-align: center;
+}
+
+.description {
+  text-align: left;
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #9C9C9C;
+}
+
+.description2 {
+  text-align: right;
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #9C9C9C;
+  margin-bottom: 175px;
+  position: absolute;
+  top: 174px;
+  right: 0;
+  padding: 10px;
+}
+
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: blue;
+}
