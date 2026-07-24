@@ -1,109 +1,76 @@
 body {
-  min-height: 100vh;
-  min-width: 100vw;
   background: linear-gradient(to right, #22006E, #763680);
-  ;
+  /*overflow-x: hidden;
+  overflow-y: scroll;*/
 }
 
-.current-works-heading {
-  color: #9C9C9C;
+.cards .profile {
   text-align: center;
-  text-align: center;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 50px;
 }
 
-.Name {
-  color: #9C9C9C;
-  text-align: center;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 80px;
-}
-
-.current-works-paragraph {
-  color: #757575;
-  text-align: center;
-  text-align: center;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 20px;
-}
-
-.past-works-heading {
-  color: #9C9C9C;
-  text-align: center;
-  text-align: center;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 50px;
-}
-
-.past-works-paragraph {
-  color: #757575;
-  text-align: center;
-  text-align: center;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 20px;
-}
-
-.body-paragraphs {
-  color: #757575;
-  text-align: left;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 20px;
-}
-
-.profile .pfp {
+.cards .profile .pfp {
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
 
-.profile {
+.cards .profile .username {
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #9C9C9C;
+}
+
+.cards .cw {
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #9C9C9C;
   text-align: center;
 }
 
-.socials {
+/*
+.headings .buttons {
+  color: #757575;
+  text-align: left;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 100;
+  margin: 20px;
+}
+*/
+
+.cards .cw .btns {
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #757575;
+  text-align: left;
+}
+
+.cards .work .pw {
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #9C9C9C;
+  text-align: center;
+}
+
+.cards .work .txt {
+  font-family: "DynaPuff", system-ui;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #757575;
+  text-align: center;
+}
+
+.cards .socials {
   text-align: right;
-  margin-right: 10px;
-  margin-top: 25px;
 }
 
-.past-works {
-  text-align: center;
-}
-
-body {
-  overflow-x: hidden;
-  overflow-y: scroll;
+.cards .socials .discord {
+  margin-bottom: 100px;
 }
 
 button {
@@ -121,21 +88,4 @@ button {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; 
-}
-
-body {
-  margin: 0;
-}
-
-.past-works-heading {
-  color: #9C9C9C;
-  text-align: center;
-  text-align: center;
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  /* font-variation-settings: */
-  width: 100;
-  margin: 50px;
 }
